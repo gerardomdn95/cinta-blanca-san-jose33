@@ -1,0 +1,26 @@
+/* Este selector afecta a todas nuestras etiquetas en HTML */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Este selector afecta a todas nuestras etiquetas h1 */
+h1 {
+    color: red;
+}
+
+ol {
+    color: green;
+    background: darkslategray;
+}
+
+body {
+    background: #328892;
+}
+
+.asteroides {
+    color: goldenrod;
+}
+
+.after {
+    color: blue;
+}
