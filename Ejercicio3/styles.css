@@ -1,0 +1,70 @@
+.navbar {
+    background: gray;
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    background: black;
+    color: #FFFFFF;
+}
+
+.main-container {
+    height: 80vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 50px;
+}
+
+.input:hover {
+    border: solid 1px gold;
+}
+
+.button {
+    border-radius: 50px;
+}
+
+.searcher {
+    background: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: 20px;
+    background: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+
+
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
+/* Si queremos usar flexbox debemos escribir display: flex */
