@@ -1,0 +1,91 @@
+.bandera {
+  height: 400px;
+  width: 600px;
+  border: 2px solid;
+  background: #003087;
+  display: flex;
+}
+
+.izquierda {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.derecha {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.blanco {
+  height: 42%;
+  width: 85%;
+  background: white;
+  display: flex;
+}
+
+.derecha .blanco {
+  width: 90%;
+}
+
+.rojo {
+  height: 90%;
+  width: 90%;
+  background: #C8102E
+}
+
+.rojo2 {
+  align-self: flex-end;
+}
+
+
+.blanco1 {
+  height: 42%;
+  width: 90%;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blanco2 {
+  height: 42%;
+  width: 90%;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.blanco1 .rojo {
+  width: 94%;
+}
+
+.blanco2 .rojo {
+  width: 94%;
+}
+
+.costa-rica {
+  height: 400px;
+  width: 600px;
+  border: 2px solid;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.azul-costa-rica {
+  background: #002B7F;
+  height: 66.66px;
+}
+
+.rojo-costa-rica {
+  background: #CE1126;
+  height: 133.32px;
+}
