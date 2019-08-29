@@ -17,8 +17,11 @@
 
 body {
     background: url("https://www.mentesliberadas.com/wp-content/uploads/2018/02/explorar-los-planetas-03-1024x650.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 .container {
-    background: white;
+    background: rgba(255,255,255, 0.5);
 }
