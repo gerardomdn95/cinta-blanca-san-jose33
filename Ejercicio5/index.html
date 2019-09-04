@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Jugador 1</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <h3>Piedra</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ1('piedra')" type="button" class="btn btn-info">Piedra</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3>Papel</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ1('papel')" type="button" class="btn btn-info">Papel</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3>Tijera</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ1('tijera')" type="button" class="btn btn-info">Tijera</button>
+                </div>
+            </div>
+        </div>
+
+        <h1>Jugador 2</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <h3>Piedra</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ2('piedra')" type="button" class="btn btn-danger">Piedra</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3>Papel</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ2('papel')" type="button" class="btn btn-danger">Papel</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3>Tijera</h3>
+                    <img src="" alt="">
+                    <button onclick="opcionJ2('tijera')" type="button" class="btn btn-danger">Tijera</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="card">
+                <button onclick="juego(opcJ1, opcJ2)" class="btn btn-success">Jugar</button>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
